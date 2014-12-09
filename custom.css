@@ -1,0 +1,52 @@
+
+
+/*HTML ELEMENTS*/
+
+
+body {
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+}
+a {
+  color: #aaa;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+h2 {
+  font-size: 1.25em;
+  border-bottom: #aaa 1px solid;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+h1 {
+  color: red;
+  font-size: 1.25em;
+}
+
+
+/*LAYOUT*/
+
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.col {
+  padding: 0 2%;
+}
+.col100 {
+  width: 96%;
+}
+.col33 {
+  width: 29%;
+  float: left;
+}
+
+ @media (max-width: 800px) {
+   .col33 {
+     width: 96%;
+   }
+ }
+
